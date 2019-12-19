@@ -39,7 +39,7 @@ public:
     QLabel *label_2;
     QLineEdit *portLineEdit;
     QLabel *label;
-    QPushButton *connecButton;
+    QPushButton *connectButton;
     QLineEdit *messageLineEdit;
     QPushButton *sendButton;
     QLineEdit *ipfilesendEdit;
@@ -105,10 +105,10 @@ public:
 
         gridLayout->addWidget(label, 0, 0, 1, 1);
 
-        connecButton = new QPushButton(gridLayoutWidget);
-        connecButton->setObjectName(QStringLiteral("connecButton"));
+        connectButton = new QPushButton(gridLayoutWidget);
+        connectButton->setObjectName(QStringLiteral("connectButton"));
 
-        gridLayout->addWidget(connecButton, 0, 3, 3, 1);
+        gridLayout->addWidget(connectButton, 0, 3, 3, 1);
 
         messageLineEdit = new QLineEdit(gridLayoutWidget);
         messageLineEdit->setObjectName(QStringLiteral("messageLineEdit"));
@@ -145,7 +145,7 @@ public:
         label_3->setText(QApplication::translate("Chatting", "\355\217\254\355\212\270 : ", Q_NULLPTR));
         label_2->setText(QApplication::translate("Chatting", "\353\251\224\354\213\234\354\247\200 :", Q_NULLPTR));
         label->setText(QApplication::translate("Chatting", "IP \354\243\274\354\206\214 :", Q_NULLPTR));
-        connecButton->setText(QApplication::translate("Chatting", "\354\240\221\354\206\215", Q_NULLPTR));
+        connectButton->setText(QApplication::translate("Chatting", "\354\240\221\354\206\215", Q_NULLPTR));
         sendButton->setText(QApplication::translate("Chatting", "\354\240\204\354\206\241", Q_NULLPTR));
         fileSendButton->setText(QApplication::translate("Chatting", "\355\214\214\354\235\274 \354\240\204\354\206\241", Q_NULLPTR));
     } // retranslateUi

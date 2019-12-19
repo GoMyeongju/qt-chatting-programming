@@ -72,7 +72,7 @@
       </widget>
      </item>
      <item row="0" column="3" rowspan="3">
-      <widget class="QPushButton" name="connecButton">
+      <widget class="QPushButton" name="connectButton">
        <property name="text">
         <string>접속</string>
        </property>
